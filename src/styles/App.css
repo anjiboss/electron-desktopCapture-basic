@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+body {
+  background: white;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+video {
+  width: 480px;
+  height: 360px;
+  background: rgba(0, 0, 0, 0.25);
+}
+button {
+  display: inline-block;
+  background: -webkit-linear-gradient(#f9f9f9 40%, #e3e3e3 70%);
+  background: linear-gradient(#f9f9f9 40%, #e3e3e3 70%);
+  border: 1px solid #999;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+button:hover,
+button.active {
+  border-color: black;
+}
+button:active,
+button.active {
+  background: -webkit-linear-gradient(#e3e3e3 40%, #f9f9f9 70%);
+  background: linear-gradient(#e3e3e3 40%, #f9f9f9 70%);
+}
+
+video {
+  background: white url(desktop.png) center no-repeat;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
